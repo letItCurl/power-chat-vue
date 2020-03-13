@@ -1,7 +1,7 @@
 <template>
     <div class="chat container">
-        <h2 class="teal-text">Power chat</h2>
-        <div class="card">
+        <h2 class="teal-text">Power chat as {{name}}</h2>
+        <div class="card left-align">
             <div class="card-content">
                 <ul class="messages">
                     <li>
