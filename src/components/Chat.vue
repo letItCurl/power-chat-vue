@@ -1,19 +1,19 @@
 <template>
     <div class="chat container">
-        <h2 class="teal-text">Power chat as {{name}}</h2>
+        <h2 class="teal-text">Log as <span class="red-text">{{name}}</span></h2>
         <div class="card left-align">
             <div class="card-content">
                 <ul class="messages" v-chat-scroll>
                     <li v-for="message in messages" :key="message">
-                        <div v-if="iam(message.name)" class="right-align">
-                            <span class="grey-text text-darken-3">{{message.content}}</span>
-                            <span class="red-text">: {{message.name}}</span>
-                            <span class="grey-text time">{{message.timestamp}}</span>
+                        <div v-if="iam(message.name)" class="right-align iam">
+                            <div class="red-text">{{message.name}}</div>
+                            <div class="grey-text text-darken-3">{{message.content}}</div>
+                            <div class="grey-text time">{{message.timestamp}}</div>
                         </div>
                         <div v-if="!iam(message.name)">
-                            <span class="teal-text">{{message.name}}: </span>
-                            <span class="grey-text text-darken-3">{{message.content}}</span>
-                            <span class="grey-text time">{{message.timestamp}}</span>
+                            <div class="teal-text">{{message.name}}</div>
+                            <div class="grey-text text-darken-3">{{message.content}}</div>
+                            <div class="grey-text time">{{message.timestamp}}</div>
                         </div>
                     </li>
                 </ul>
@@ -73,17 +73,20 @@ export default {
     margin-bottom: 40px;
 }
 
-.chat span {
+.chat .messages {
     font-size: 1.4em;
 }
 
-.chat .time{
+.chat .time {
     display: block;
-    font-size: 0.8em;
+    font-size: 0.5em;
 }
 .messages {
     max-height: 300px;
     overflow: auto;
+}
+.chat .iam{
+    padding-right: 10px;
 }
 
 
