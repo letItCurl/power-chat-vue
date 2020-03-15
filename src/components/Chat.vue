@@ -5,9 +5,16 @@
             <div class="card-content">
                 <ul class="messages" v-chat-scroll>
                     <li v-for="message in messages" :key="message">
-                        <span class="teal-text">{{message.name}}: </span>
-                        <span class="grey-text text-darken-3">{{message.content}}</span>
-                        <span class="grey-text time">{{message.timestamp}}</span>
+                        <div v-if="iam(message.name)" class="right-align">
+                            <span class="grey-text text-darken-3">{{message.content}}</span>
+                            <span class="red-text">: {{message.name}}</span>
+                            <span class="grey-text time">{{message.timestamp}}</span>
+                        </div>
+                        <div v-if="!iam(message.name)">
+                            <span class="teal-text">{{message.name}}: </span>
+                            <span class="grey-text text-darken-3">{{message.content}}</span>
+                            <span class="grey-text time">{{message.timestamp}}</span>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -32,6 +39,15 @@ export default {
     data() {
         return {
             messages: [],
+        }
+    },
+    methods:{
+        iam(messageName){
+            if(messageName == this.name){
+                return true
+            }else{
+                return false
+            }
         }
     },
     created(){
