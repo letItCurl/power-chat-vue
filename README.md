@@ -22,6 +22,13 @@ One more projects to go!
 
 Just open two regular browser, enter two names and you are good to know !
 
+# Is this real-world ready ?
+
+Noooooooooo! there is no data validation and no uniquess of users...
+
+# What's next ?
+
+<a class='text-center' href="https://power-chat-vue.firebaseapp.com">Or click here to try it in your browser!</a>
 
 
 
