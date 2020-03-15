@@ -26,21 +26,20 @@ Just open two regular browser, enter two names and you are good to know !
 
 Noooooooooo! there is no data validation and no uniquess of users...
 
-# What's next ?
-
-Let's build somthing with real user auth and data validation. 
-<a class='text-center' href="https://github.com/letItCurl/what-is-my-stack">Click here to see my next project !</a>
-
 # Though
 
 I'm a rails developer, i see the world in a MVC perspective.
-This way of developing app can be beacome a huge mess very quickly if we don't organise the routes properly. 
-
+This way of developing app can be beacome a huge mess very quickly if we don't organise the routes properly.
+It's very fun to see how the way of querying data in firebase is quite the same even if this is not an sql server...
 
 <p align="center">
 <img src="https://g1f.fr/image/1529503588-fuck-this-raf-je-m-en-fous.gif">
 </p>
 
+# What's next ?
+
+Let's build somthing with real user auth and data validation. 
+<a class='text-center' href="https://github.com/letItCurl/what-is-my-stack">Click here to see my next project !</a>
 
 
 
