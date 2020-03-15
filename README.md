@@ -38,7 +38,7 @@ It's very fun to see how the way of querying data in firebase is quite the same 
 Let's build somthing with real user auth and data validation. 
 <a class='text-center' href="https://github.com/letItCurl/what-is-my-stack">Click here to see my next project !</a>
 
-- <a href="https://github.com/letItCurl/vue-my-smoothies/">Project one | You are here</a>
+- <a href="https://github.com/letItCurl/vue-my-smoothies/">Project one</a>
 - Project two | You are here
 - <a href="https://github.com/letItCurl/what-is-my-stack">Project three</a>
 
