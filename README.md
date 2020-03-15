@@ -6,12 +6,12 @@
 
 ***click on the GIF for a video prewiev***
 
-Tired of action cable ? Redis ? and server configs ?
+Tired of action cable ? Redis ? and server configs to build instant chat app ?
 Let's try realtime feature on firebase !
+Basicly it's a feature that is given in the library of firebase, it allow to listen only when there is a change in the document.
 
 Second day on learning Vue.JS.
-First project, the goal is to learn vue in 48h.
-
+Second Project, the goal is to learn vue in 48h.
 One more projects to go!
 
 # <a class='text-center' href="https://power-chat-vue.firebaseapp.com">Or click here to try it in your browser!</a>
@@ -30,6 +30,17 @@ Noooooooooo! there is no data validation and no uniquess of users...
 
 Let's build somthing with real user auth and data validation. 
 <a class='text-center' href="https://github.com/letItCurl/what-is-my-stack">Click here to see my next project !</a>
+
+# Though
+
+I'm a rails developer, i see the world in a MVC perspective.
+This way of developing app can be beacome a huge mess very quickly if we don't organise the routes properly. 
+
+
+<p align="center">
+<img src="https://g1f.fr/image/1529503588-fuck-this-raf-je-m-en-fous.gif">
+</p>
+
 
 
 
