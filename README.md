@@ -28,7 +28,8 @@ Noooooooooo! there is no data validation and no uniquess of users...
 
 # What's next ?
 
-<a class='text-center' href="https://power-chat-vue.firebaseapp.com">Or click here to try it in your browser!</a>
+Let's build somthing with real user auth and data validation. 
+<a class='text-center' href="https://github.com/letItCurl/what-is-my-stack">Click here to see my next project !</a>
 
 
 
