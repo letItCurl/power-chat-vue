@@ -18,6 +18,10 @@ One more projects to go!
 
 > Db and hosting in firebase.
 
+# How to test ?
+
+Just open two regular browser, enter two names and you are good to know !
+
 
 
 
