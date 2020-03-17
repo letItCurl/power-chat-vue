@@ -29,7 +29,7 @@ Noooooooooo! there is no data validation and no uniquess of users...
 # Though
 
 I'm a rails developer, i see the world in a MVC perspective.
-This way of developing app can be beacome a huge mess very quickly if we don't organise the routes properly.
+This way of developing app can be become a huge mess very quickly if we don't organise the routes properly.
 I feel like my two year of experience in rails will be a huge asset for ressource managment. 
 It's very fun to see how the way of querying data in firebase is quite the same even if this is not an sql server...
 
