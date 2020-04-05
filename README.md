@@ -33,7 +33,7 @@ This way of developing app can be become a huge mess very quickly if we don't or
 I feel like my two year of experience in rails will be a huge asset for ressource managment. 
 It's very fun to see how the way of querying data in firebase is quite the same even if this is not an sql server...
 
-# What's next ?
+# What's next ??
 
 Let's build somthing with real user auth and data validation. 
 <a class='text-center' href="https://github.com/letItCurl/what-is-my-stack">Click here to see my next project !</a>
