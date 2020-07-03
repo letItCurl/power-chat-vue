@@ -22,10 +22,6 @@ One more projects to go!
 
 Just open two regular browser, enter two names and you are good to know !
 
-# Is this real-world ready ?
-
-Noooooooooo! there is no data validation and no uniquess of users...
-
 # Though
 
 I'm a rails developer, i see the world in a MVC perspective.
